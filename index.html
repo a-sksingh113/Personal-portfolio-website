@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9f1d966d1d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo12.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Satish </span><br>Singh From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------About section------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user2.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello I am Satish Singh from India. I am currently pursuing my degree in the <br> illustrious and
+                        highly competetive department of Electrical Engineering at <br> IIEST,Shibpur , one of the
+                        oldest and finest engineering institutes in the country. <br> I have been passinates and
+                        enthusiastic about technology and innovation, and have a <br> keen and insatiable intrest in
+                        learning new skills and exploring new domains.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web</span><br>Developer/Designing</li>
+                            <li><span>App Development</span><br>Web App Development</li>
+                            <li><span>Graphic</span><br>Graphic Designing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Current</span><br>Learning DSA and WebDev</li>
+                            <li><span>Last Months</span><br>College Studies</li>
+                            <li><span>Past 8 Months</span><br>Participating in college events</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024 - Currently</span><br>Studying in IIEST,Shibpur</li>
+                            <li><span>2023 - 2024</span><br>Preparation for jee</li>
+                            <li><span>2022 - 2023</span><br>Studying in School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------services section------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p>I have keen intrest in Web Development . I am always curious to <br>how website work.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Designer</h2>
+                    <p>I have also intrest in Graphic Designing . I am always curious to <br>how logo and poster made.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Developer</h2>
+                    <p>I have also intrest in App Development . I am always curious to <br>how App are work .</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </div>
+    <!-- --------Portfolio---------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Websites </h3>
+                        <p>Many Social Website are very Well Designed.
+                            Explore it from google crome.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Social Media Apps</h3>
+                        <p>Many Social app very Well Designed.
+                            Download it from google play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Other Useful Websites </h3>
+                        <p>Many useful social Website are very Well Designed.
+                            Explore it from google crome.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- --------Contect section-------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>i.sksingh@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 8112590073</p>
+                    <div class="social-icon">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2" >Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="contact" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright  <i class="fa-regular fa-copyright"></i>  Satish. Made for My Portfolio</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+
+    </script>
+</body>
+
+</html>
